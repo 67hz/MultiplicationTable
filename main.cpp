@@ -29,7 +29,16 @@ void createMultiplicationTable(int rows, int cols) {
 }
 
 int main() {
-    createMultiplicationTable(200, 200);
+    int rows, cols;
+
+    cout << "Enter number of rows: " << flush;
+    cin >> rows;
+    cout << endl;
+    cout << "Enter number of cols: " << flush;
+    cin >> cols;
+    cout << endl;
+
+    createMultiplicationTable(rows, cols);
 
     return 0;
 }
